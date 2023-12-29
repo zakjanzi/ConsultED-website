@@ -30,6 +30,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+
 </head>
 
 <body id="top">
@@ -57,8 +61,7 @@
                 <ul>
                     <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
                     <li><a class="smoothscroll" href="#services">Services</a></li>
-                    <li><a class="smoothscroll" href="#products">Products</a></li>
-                    <!-- <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li> -->
+                    <li><a class="smoothscroll" href="#products" target="_blank">Products</a></li>
                     <li><a class="smoothscroll" href="#about">What We Do</a></li>
                     <li><a class="smoothscroll" href="#blog">Blog</a></li>
                     <li><a class="smoothscroll" href="#contact">Contact</a></li>
@@ -404,7 +407,55 @@
 
     </section> <!-- end s-portfolio -->
 
+<!-- stats section
+================================================== -->
 
+ <script>
+    $(document).ready(function() {
+        $('.timer').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+
+<section id="statistic" class="statistic-section one-page-section">
+        <div class="row text-center" style="justify-content: space-around">
+            <div class="col-xs-12 col-md-3">
+                <div class="counter">
+                    <i class="fa fa-calendar fa-2x stats-icon"></i>
+                    <h2 class="timer count-title count-number">10</h2>
+                    <div class="stats-line-black"></div>
+                    <p class="stats-text">Years Strong</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="counter">
+                    <i class="fa fa-mouse-pointer fa-2x stats-icon"></i>
+                    <h2 class="timer count-title count-number">15,000,000
+                    </h2>
+                    <div class="stats-line-black"></div>
+                    <p class="stats-text">Clicks (& counting)</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="counter">
+                    <i class="fa fa-pencil fa-2x stats-icon"></i>
+                    <h2 class="timer count-title count-number">60,000</h2>
+                    <div class="stats-line-black"></div>
+                    <p class="stats-text"> Learners</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="counter">
+                    <i class="fa fa-building fa-2x stats-icon"></i>
+                    <h2 class="timer count-title count-number">124</h2>
+                    <div class="stats-line-black"></div>
+                    <p class="stats-text">Institutions Served</p>
+                </div>
+            </div>
+        </div>
+</section>
    
 
 
@@ -432,7 +483,7 @@
             </div>
         </div>
 
-        <div class="row block-large-1-4 block-medium-1-2 block-mob-full process-block">
+        <div class="row block-large-1-4 block-medium-1-2 block-mob-full process-block" style="justify-content: center">
 
             <div class="column process" data-aos="fade-up">
                <h6>Vision.</h6>
@@ -447,10 +498,9 @@
                 <h6>Mission.</h6>
    
                 <p>
-                At ConsultED, we firmly believe that it is individuals who make up an institutions. 
                 The pace at which the institution can progress is directly linked to how quickly their stakeholders are prepared. 
-                Be it a student or an instructor, an employee or a customer, a partner or a supplier, 
-                ConsultED is determined to turn this tedious task into an efficient, exciting, and swift experience for all parties involved.
+                Be it a student, instructor, employee, customer, partner or a supplier.
+                ConsultED is determined to turn this tedious task into an efficient and swift experience for all parties involved.
 
                 </p>
             </div>
@@ -895,6 +945,13 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Stat animation stuff.-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js'></script><script  src="./js/script.js"></script>
+    
 
 </body>
 
