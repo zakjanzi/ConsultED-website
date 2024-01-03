@@ -3182,6 +3182,134 @@ input::-moz-focus-inner {
     color: white;
 }
 
+/* CSS for header (navbar) in product page */
+
+.s-header__nav2 {
+    font-family: var(--font-2);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.s-header__nav2 ul {
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.s-header__nav2 li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+
+
+.s-header__nav2 a {
+    display: block;
+    height: var(--header-height);
+    line-height: var(--header-height);
+    padding: 0 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.s-header__nav2 a:hover, .s-header__nav2 a:focus {
+    color: white;
+}
+
+.s-header__nav2 .current a {
+    background-color: var(--color-1);
+    color: white;
+}
+
+
+.s-header2 {
+    --header-height: 7.2rem;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.s-header2 .row {
+    min-height: var(--header-height);
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0 calc(var(--gutter-lg) + 1.2rem);
+    position: relative;
+}
+
+.s-header2.offset {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.s-header2.scrolling {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.s-header2.sticky {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.s-header2.sticky.scrolling {
+    opacity: 1;
+    visibility: visible;
+}
+
+.s-header2--blog .row {
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+/* -------------------------------------------------------------------
+ * ## header logo
+ * ------------------------------------------------------------------- */
+.s-header2__logo {
+    --logo-width: 106px;
+    --logo-height: 20px;
+    height: var(--header-height);
+    width: var(--logo-width);
+    margin-right: 4rem;
+    position: relative;
+}
+
+.s-header2__logo a {
+    display: block;
+    height: var(--logo-height);
+    padding: 0;
+    outline: 0;
+    border: none;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.s-header2__logo img {
+    vertical-align: top;
+    width: var(--logo-width);
+    height: var(--logo-height);
+    margin: 0;
+}
 /* ------------------------------------------------------------------- 
  * ## header search
  * ------------------------------------------------------------------- */
