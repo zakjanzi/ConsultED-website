@@ -10,10 +10,43 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets-products/css/main.css" />
+		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="../css/vendor.css">
 		<noscript><link rel="stylesheet" href="assets-products/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
+		 <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row">
+
+            <div class="s-header__logo">
+                <a href="../index.html">
+                    <img src="../images/logo.svg" alt="Homepage">
+                </a>
+            </div>
+
+            <nav class="s-header__nav">
+                <ul>
+                    <li><a class="smoothscroll" href="../index.html">Home</a></li>
+                    <li><a class="smoothscroll" href="../index.html#services">What We Do</a></li>
+                    <li class="current"><a  style="pointer-events: none;" href="/products/index.html" target="_blank">Products</a></li>
+					<li><a class="smoothscroll" href="../services/index.html" target="_blank">Services</a></li>
+                    <li><a class="smoothscroll" href="../index.html#about">About Us</a></li>
+                    <li><a class="smoothscroll" href="../index.html#blog">Testimonials</a></li>
+                    <li><a class="smoothscroll" href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a class="s-header__menu-toggle" href="#0" title="Menu">
+                <span class="s-header__menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+    </header> <!-- end s-header -->
+	
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -25,14 +58,14 @@
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
+					<!-- <nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">What is an LMS?</a></li>
 							<li><a href="#first">Who can use it?</a></li>
 							<li><a href="#second">Need some simplifying?</a></li>
 							<li><a href="#cta">Book Demo</a></li>
 						</ul>
-					</nav>
+					</nav> -->
 
 				<!-- Main -->
 					<div id="main">
@@ -45,9 +78,10 @@
 											<h2>Learning Management Systems</h2>
 										</header>
 										<p>A learning management system is a super user-friendly study buddy! It's not just a tool; it's your easy-to-use guide for a better learning adventure. Think of it as a smart study planner that helps you keep everything in one place – assignments, readings, and exams. Our LMS organizes your courses and keeps everything simple. You can follow your learning path, submit assignments hassle-free, and keep an eye on how you're doing. It's like having a really helpful friend for your learning journey. Dive into a smoother way of learning with our LMS – making education easy and fun!</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
+										<ul class="actions"></ul>
+										<div class="s-contact__email-us">
+											<a href="mailto:hello@consulted.com" class="btn btn--primary h-full-width">Let's Talk</a>
+										</div>
 									</div>
 									<span class="image"><img src="images-products/pic01.jpg" alt="" /></span>
 								</div>
@@ -62,17 +96,17 @@
 									<li>
 										<span class="icon solid major style1 fa-code"></span>
 										<h3>Administrators</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<p>Whether you are a manager in a company or a principal of a school, you can leverage our administrator portal and track the progress of your institution.</p>
 									</li>
 									<li>
 										<span class="icon major style3 fa-copy"></span>
 										<h3>Instructors</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<p>Always be up to speed with your institution’s modifications by editing your content accordingly and in a timely manner.</p>
 									</li>
 									<li>
 										<span class="icon major style5 fa-gem"></span>
 										<h3>Learners</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<p>Sit through the courses and exams assigned to you and enjoy the unique learning experience that ConsultED has to offer.</p>
 									</li>
 								</ul>
 								<footer class="major">
@@ -115,8 +149,8 @@
 										<strong></strong> Or basically, anything.
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								<!-- <p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p> -->
+								<!-- <p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p> -->
 								
 								<footer class="major">
 									<ul class="actions special">
@@ -128,50 +162,106 @@
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major">
-									<h2>Here's How </h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>How We Do It</h2>
+									<p>Reach out and a member of our team will follow up.</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="generic.html" class="button primary">Book a Demo</a></li>
+										<li><a href="generic.html" class="button">Ask Us a Question</a></li>
 									</ul>
 								</footer>
 							</section>
 
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+	<!-- contact
+		================================================== -->
+		<section id="contact" class="s-contact target-section s-dark">
 
+			<div class="row section-head">
+				<div class="column large-3 medium-12">
+					<h2>Contact Us</h2>
+					<p class="desc">Get in touch with us.</p>
+				</div>
+			</div> <!-- end section-head -->
+
+			<div class="row s-contact__content">
+
+				<div class="column large-7 medium-12">
+					<h3 class="display-1">
+						Looking to streamline information within your organization?
+					</h3>
+
+					<div class="s-contact__email-us">
+						<a href="mailto:hello@consulted.com" class="btn btn--primary h-full-width">Let's Talk</a>
+					</div>
+				</div>
+
+				<div class="column large-4 medium-12 s-contact__info-blocks">
+					<div class="row">
+						<div class="column medium-6 tab-12">
+							<div class="s-contact__info-block">
+								
+								<span class="s-contact__info-block-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2z"/><path d="M11.42 21.814a.998.998 0 001.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.005.021 4.438-4.388 8.423-6 9.73-1.611-1.308-6.021-5.294-6-9.735 0-3.309 2.691-6 6-6z"/></svg>
+								</span>
+			
+								<h5>Find us here</h5>
+								<p>
+								Rue Monot<br>
+								Beirut, Lebanon <br>
+								</p>
+							</div> <!-- end s-contact__info-block -->
+						</div>
+
+						<div class="column medium-6 tab-12">
+							<div class="s-contact__info-block">
+								<span class="s-contact__info-block-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M17.707 12.293a.999.999 0 00-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 000-1.414l-4-4a.999.999 0 00-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 000-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 00-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 00.912-.271L17 14.414 19.586 17l-2.006 2.005z"/></svg>
+								</span>
+			
+								<h5>Say hello</h5>
+								<p>
+								hello@consulted.com <br>
+								+961 81 888 775 <br>
+								+961 01 258 796
+								</p>
+							</div> <!-- end s-contact__info-block -->
+						</div>
+					</div> <!-- end row -->
+				</div> <!-- end s-contact__info-blocks -->
+
+			</div> <!-- end s-contact__content -->
+
+		</section> <!-- end s-contact -->
+
+
+		<!-- footer
+		================================================== -->
+		<footer class="s-footer">
+			<div class="row">
+				<div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+					<ul class="s-footer__social">
+						<li><a href="https://www.facebook.com/LebaneseAlternativeLearning/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.youtube.com/c/LALTabshoura" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/lal_ngo/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/lebanese-alternative-learning/mycompany/" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="column large-7 medium-6 w-1000-stack ss-copyright">
+					<span>© Copyright ConsultED 2024</span> 
+					<span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+				</div>
+			</div>
+
+			<div class="ss-go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+				</a>
+			</div> <!-- end ss-go-top -->
+		</footer>
 			</div>
 
 		<!-- Scripts -->
